@@ -1,0 +1,115 @@
+/* body {
+    background-image: url('../img/Wikimedium_Post.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+} */
+
+h1, h2, h3, h4, p, ol, ul, blockquote {
+    width: 701px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 1020px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    margin-top: 64px;
+}
+
+h1 + p {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 14px;
+}
+
+h1 + p + p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 79px;
+}
+
+h2 + p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 7px;
+}
+
+h2 + p + h2 {
+    margin-top: 43px;
+}
+
+h2 + p + p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 29px;
+}
+
+h2 + p + h2 + p + p + h2 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 35px;
+}
+
+blockquote {
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 29px;
+}
+
+blockquote::before {
+    position: absolute;
+    content: '';
+    top: 3px;
+    left: -20px;
+    border-left: 3px solid #333333;
+    height: 170px;
+}
+
+blockquote + p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 29px;
+}
