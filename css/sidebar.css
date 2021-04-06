@@ -1,0 +1,21 @@
+nav {
+    margin: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav li {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 12px;
+}
+
+nav > ul > li:first-child {
+    font-weight: bold;
+}
+
+nav ul ul li {
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+}

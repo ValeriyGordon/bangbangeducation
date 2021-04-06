@@ -9,6 +9,11 @@ h1, h2, h3, h4, p, ol, ul, blockquote {
     margin: auto;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 img {
     display: block;
     width: 1020px;
@@ -101,7 +106,7 @@ blockquote::before {
     top: 3px;
     left: -20px;
     border-left: 3px solid #333333;
-    height: 170px;
+    height: 100%;
 }
 
 blockquote + p {
@@ -154,6 +159,10 @@ blockquote + p + h2 + p + h3 + p + ul {
     margin-top: 29px;
 }
 
+ul {
+    width: 670px;
+}
+
 ul, li {
     margin-top: 17px;
 }
@@ -168,15 +177,6 @@ ul + p {
     margin-top: 29px;
 }
 
-ul + p + blockquote::before {
-    position: absolute;
-    content: '';
-    top: 3px;
-    left: -20px;
-    border-left: 3px solid #333333;
-    height: 238px;
-}
-
 ul + p + blockquote + h2 {
     font-family: 'PT Sans Caption', sans-serif;
     font-style: normal;
@@ -188,7 +188,7 @@ ul + p + blockquote + h2 {
 }
 
 ul + p + blockquote + h2 + h3 {
-    font-family: PT Sans Caption;
+    font-family: 'PT Sans Caption', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -198,7 +198,7 @@ ul + p + blockquote + h2 + h3 {
 }
 
 ul + p + blockquote + h2 + h3 + p{
-    font-family: PT Sans;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
