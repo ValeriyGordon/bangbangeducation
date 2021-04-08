@@ -1,12 +1,11 @@
-/* body {
-    background-image: url('../img/Wikimedium_Post.jpg');
-    background-repeat: no-repeat;
-    background-position: center top;
-} */
 
 h1, h2, h3, h4, p, ol, ul, blockquote {
     width: 701px;
     margin: auto;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 ul {
@@ -175,6 +174,10 @@ ul + p {
     line-height: 34px;
     color: #000000;
     margin-top: 29px;
+}
+
+article ul li {
+    list-style: disc;
 }
 
 ul + p + blockquote + h2 {
